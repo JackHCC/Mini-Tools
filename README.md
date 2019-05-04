@@ -169,3 +169,33 @@ def smoothing4Image(window):
  5. matplotlib
 ```
 
+#####相关代码说明
++ 人脸识别
+```
+# 人脸识别
+    def detect_face(self):
+        img = self.raw_image
+        face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
+
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+        return faces
+   ```
++ 皮肤识别
+```
+# 皮肤识别
+    def detect_skin(self):
+        img = self.raw_image
+        rows, cols, channals = img.shape
+        for r in range(rows):
+            for c in range(cols):
+                B = img.item(r, c, 0)
+                G = img.item(r, c, 1)
+                R = img.item(r, c, 2)
+                if (abs(R - G) > 15) and (R > G) and (R > B):
+                    if (R > 95) and (G > 40) and (B > 20) and (max(R, G, B) - min(R, G, B) > 15):
+                        self.imgskin[r, c] = (1, 1, 1)
+                    elif (R > 220) and (G > 210) and (B > 170):
+                        self.imgskin[r, c] = (1, 1, 1)
+```
++ 其他不做详解
