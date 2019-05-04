@@ -146,3 +146,26 @@ def smoothing4Image(window):
     showImage(window,['原图','锐化滤波后'])
 ```
 + 其他不详细介绍
+
+### Beautify-Camera
+
+##### 主要功能
+
++ 文件：打开，保存，打开摄像头
++ 操作：还原，人脸识别
++ 滤镜：怀旧，木刻，灰色，彩色，风格化，增强细节
++ 调节：亮度，饱和度，伽马变换，边缘保持
++ 磨皮美白：美白度，磨皮程度，磨皮精度
++ 灰度直方图
+
+![Beautify-Camera](show2.jpg)
+
+##### 库文件需要
+```
+ 1. PyQt5
+ 2. sys
+ 3. opencv2
+ 4. numpy
+ 5. matplotlib
+```
+
