@@ -16,7 +16,7 @@
 + 特征提取
 + 图像分类与识别
 
-![Image-Edit](show1.jpg)
+![Image-Edit](show_ImageEdit.jpg)
 
 ##### 库文件需要
 ```
@@ -158,7 +158,7 @@ def smoothing4Image(window):
 + 磨皮美白：美白度，磨皮程度，磨皮精度
 + 灰度直方图
 
-![Beautify-Camera](show2.jpg)
+![Beautify-Camera](show_BeautifyCamera.jpg)
 
 ##### 库文件需要
 ```
