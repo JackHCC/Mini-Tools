@@ -204,7 +204,7 @@ def smoothing4Image(window):
 ##### 主要功能
 + 基本的加减乘除和开根号等运算
 
-![Calculator](show_Calculator)
+![Calculator](show_Calculator.jpg)
 
 ##### 库文件需求
 ```
