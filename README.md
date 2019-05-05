@@ -199,3 +199,45 @@ def smoothing4Image(window):
                         self.imgskin[r, c] = (1, 1, 1)
 ```
 + 其他不做详解
+
+### Calculator
+##### 主要功能
++ 基本的加减乘除和开根号等运算
+
+![Calculator](show_Calculator)
+
+##### 库文件需求
+```
+math
+tkinter
+```
+
+##### 相关函数
++ 按键数字函数
+```
+def pressNumber(number)
+```
++ 按小数点函数
+```
+def pressDP()
+```
++ 清零
+```
+def clearAll()
+```
++ 清除当前显示框内所有数字
+```
+def clearCurrent()
+```
++ 删除显示框内最后一个数字
+```
+def delOne()
+```
++ 计算答案修正
+```
+def modifyResult(result)
+```
++ 按下运算符
+```
+pressOperator(operator)
+```
