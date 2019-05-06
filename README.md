@@ -90,19 +90,25 @@
 
 ##### 库文件需求
 ```
-math
-tkinter
+1.math
+2.tkinter
 ```
 
 ### pyQt5-Calculator
 ##### 主要功能
 + 基本的加减乘除和开根号等运算
+
+1.calculator.py
+
 ![pyQt5-Calculator_1](pyQt5-Calculator_1.jpg)
+
+2.Calculator_.py
+
 ![pyQt5-Calculator_2](pyQt5-Calculator_2.jpg)
 
 ##### 库文件需求
 ```
-PyQt5
-sys
-math
+1.PyQt5
+2.sys
+3.math
 ```
