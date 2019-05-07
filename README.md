@@ -141,3 +141,15 @@
 3.os
 ```
 ![(show_NotePad](show_NotePad.jpg)
+
+### RandomPassWord
+##### 主要功能
++ 随机生成一串密码，包括大小写字母，数字，符号，可指定长度
+![show_RandomPassword](show_RandomPassword.jpg)
+
+##### 库文件引入
+```
+1.secrets
+2.pyQt5
+3.sys
+```
