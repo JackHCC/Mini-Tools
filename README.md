@@ -129,3 +129,15 @@
 4.os
 ```
 ![show_Painting](show_Painting.jpg)
+
+### NotePad
+##### 主要功能
++ 基本文本编辑，类似于记事本
+
+##### 库文件需求
+```
+1.pyQt5
+2.sys
+3.os
+```
+![(show_NotePad](show_NotePad.jpg)
