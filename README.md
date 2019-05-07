@@ -166,3 +166,17 @@
 2.os
 3.sys
 ```
+
+### MusicPlayer
+##### 主要功能
++ 音乐播放器
+
+![show_MusicPlayer](show_MusicPlayer.jpg)
+
+##### 库函数引用
+```
+1.os
+2.sys
+3.time
+4.pyQt5
+```
