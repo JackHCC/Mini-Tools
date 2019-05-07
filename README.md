@@ -112,3 +112,20 @@
 2.sys
 3.math
 ```
+
+### Painting绘画
+##### 主要功能
++ File：新建画板，打开图片，保存图片
++ Edit：复制，清空画板
++ Image：翻转
++ 工具：基本画笔，橡皮擦，图形创建工具等
++ 编辑区，色彩调节区，字体调节区等
+
+##### 库文件需求
+```
+1.PyQt5
+2.random
+3.type
+4.os
+```
+![show_Painting](show_Painting.jpg)
