@@ -154,3 +154,15 @@
 2.pyQt5
 3.sys
 ```
+
+### Browser
+##### 主要功能
++ 基本浏览器功能
+
+![show_Browser](show_Browser.jpg)
+##### 库函数需求
+```
+1.pyQt5
+2.os
+3.sys
+```
